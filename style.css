@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Shadows+Into+Light&display=swap");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+:root{
+    --cardo: #cdb4dbff;
+--conto-de-fadas: #ffc8ddff;
+--cravo-rosa: #ffafccff;
+--uraniano-azul: #bde0feff;
+--claro-céu-azul: rgb(29, 77, 122);
+--fonte-primaria:"Shadows Into Light";
+--fonte-secundaria:"Crimson Text", serif;
+}
+
+body{
+    background-color:#ffc8ddff ;
+    font-family: var(--cravo-rosa);
+    color: var(--claro-céu-azul);
+    min-height: height 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+h1{
+    font-family: var(--fonte-primaria);
+    color:var(--cravo-rosa);
+    font-size: 7em;
+}
+h3{
+    color: var(--cardo);
+    font-family: var(--fonte-primaria);
+    font-size: 4em;
+
+}
+
+.mensagem{
+    font-size: 3em;
+    color: var(--claro-céu-azul);
+    margin-top: 20px;
+    background-color: var(--cardo);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.box{
+    border: 4px inset var(--uraniano-azul);
+    display: inline-block;
+    font-size: 2em;
+    padding: 10px;
+    margin: 10px;
+}
